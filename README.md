@@ -9,18 +9,26 @@ A recreation of the famous arcade game **Pac-Man**, built in **Java** using **Sw
 
 --------------------------------------------------------------------------------------------------------------------------------
 
-Features
+## Features
 - Playable Pac-Man with **arrow-keys** controls
 - **Ghost** "AI" that has the chasing mode and scared mode behaviors depending on conditions within the game
 - **Collision detection** for walls, ghosts, pellets and the power pellets
 - **Scoring system** and **lives tracker**
 - Built with object oriented design/programming
 
-🛠️ Programming/Languages used
+## 🛠️ Programming/Languages used
 - **Java**
 - **Swing / AWT** # For rendering and input of the game
 - **OOP**
 
-▶️ How to Run
+## ▶️ How to Run
 1. Clone the repo
 2. Compile and run the Pac-Man.java file utilizing the App.java
+
+## How to play the Game
+- Use the arrow keys to move the Pac-Man through the map
+- The empty spaces to the left and right of the map can be utilized to teleport to the other side of the map
+- Eat all the pellets on the map to move onto the next level and to continue progressing through the game
+- Avoid ghosts when they are in their normal form (Red, Blue, Pink, Orange)
+- Eat the power pellets (looks like pellets but are slightly bigger in size, 4 around the map) to turn ghosts "scared" making them eatable by Pac-Man to gain more points for a period of time before reverting back to their normal form
+- After 3 deaths, the game ends and you can restart by clicking any key
